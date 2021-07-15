@@ -2,7 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://lendunistus.github.io/wiiuvcextract-guide/</loc>
-         <lastmod>2021-07-14</lastmod>
+         <lastmod>2021-07-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lendunistus.github.io/wiiuvcextract-guide/credits/</loc>
+         <lastmod>2021-07-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lendunistus.github.io/wiiuvcextract-guide/nintendo64/</loc>
+         <lastmod>2021-07-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lendunistus.github.io/wiiuvcextract-guide/nintendods/</loc>
+         <lastmod>2021-07-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lendunistus.github.io/wiiuvcextract-guide/nintendowii/</loc>
+         <lastmod>2021-07-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lendunistus.github.io/wiiuvcextract-guide/vcextractor/</loc>
+         <lastmod>2021-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

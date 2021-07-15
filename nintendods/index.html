@@ -4,26 +4,26 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
         
-        <link rel="canonical" href="https://lendunistus.github.io/wiiuvcextract-guide/">
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Wii U VC Extraction Guide</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="canonical" href="https://lendunistus.github.io/wiiuvcextract-guide/nintendods/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Nintendo DS - Wii U VC Extraction Guide</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/darcula.min.css">
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap.min.js" defer></script>
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">Wii U VC Extraction Guide</a>
+                <a class="navbar-brand" href="..">Wii U VC Extraction Guide</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -33,32 +33,32 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem active">
-                                <a href="." class="nav-link">Home</a>
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Guides <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="vcextractor/" class="dropdown-item">wiiu-vc-extractor</a>
+    <a href="../vcextractor/" class="dropdown-item">wiiu-vc-extractor</a>
 </li>
                                     
 <li>
-    <a href="nintendo64/" class="dropdown-item">Nintendo 64</a>
+    <a href="../nintendo64/" class="dropdown-item">Nintendo 64</a>
 </li>
                                     
 <li>
-    <a href="nintendods/" class="dropdown-item">Nintendo DS</a>
+    <a href="./" class="dropdown-item active">Nintendo DS</a>
 </li>
                                     
 <li>
-    <a href="nintendowii/" class="dropdown-item">Nintendo Wii</a>
+    <a href="../nintendowii/" class="dropdown-item">Nintendo Wii</a>
 </li>
                                 </ul>
                             </li>
                             <li class="navitem">
-                                <a href="credits/" class="nav-link">Credits</a>
+                                <a href="../credits/" class="nav-link">Credits</a>
                             </li>
                         </ul>
 
@@ -69,12 +69,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
+                                <a rel="prev" href="../nintendo64/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="vcextractor/" class="nav-link">
+                                <a rel="next" href="../nintendowii/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -96,7 +96,7 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="2"><a href="#wii-u-virtual-console-extraction-guide" class="nav-link">Wii U Virtual Console Extraction Guide</a>
+            <li class="nav-item" data-level="2"><a href="#nintendo-ds-guide" class="nav-link">Nintendo DS Guide</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -105,63 +105,29 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h2 id="wii-u-virtual-console-extraction-guide">Wii U Virtual Console Extraction Guide</h2>
-<p>Welcome! In this guide, you will learn how to extract ROMs from Wii U VC titles.</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Before beginning, make sure that <strong>File Name Extensions</strong> is enabled in File Explorer like in the image below (if you're using Windows):</p>
-<p><p align="center">
-  <img src="https://i.imgur.com/Enayp9F.png" alt="File Explorer"/>
-</p></p>
-<p>Also make sure that your SD card is formatted as FAT32.
-If it is not, use one of these tools to do so:</p>
-<p>Windows - <a href="http://ridgecrop.co.uk/index.htm?guiformat.htm">GUIFormat</a></p>
-<p>Linux - <a href="https://gparted.org/download.php">GParted</a></p>
-<p>MacOS - <a href="https://support.apple.com/guide/disk-utility/format-a-disk-for-windows-computers-dskutl1010">Disk Utility</a></p>
-<p><strong>MacOS Users:</strong> Always select "MS-DOS (FAT)", even if the card is larger than 32GB.</p>
+<h2 id="nintendo-ds-guide">Nintendo DS Guide</h2>
+<h3 id="downloads">Downloads</h3>
+<ul>
+<li><a href="https://github.com/emiyl/dumpling/releases/latest/">Dumpling</a> (download <code>dumpling.zip</code>)</li>
+</ul>
+<h4 id="steps">Steps</h4>
+<p><strong>1.</strong> Extract the contents of <code>dumpling.zip</code> to the root of your sd card.</p>
+<p><strong>2.</strong> Insert your SD card into your Wii U and power your Wii U on.</p>
+<p><strong>3.</strong> Launch The Homebrew Launcher using your preferred method.</p>
+<p><strong>4.</strong> Launch Dumpling.</p>
+<p><strong>5.</strong> Select "Dump Digital Games".</p>
+<p><strong>6.</strong> Select all the games you want to dump using the DPad/A button and then press Start.</p>
+<p><strong>7.</strong> Make sure the target destination is set to <code>SD card</code> and the account is set accordingly, then select Start to begin dumping. (this could take a while)</p>
+<p><strong>8.</strong> Once the dump has finished, press Start to exit Dumpling and insert your SD card into your computer/phone.</p>
+<p><strong>9.</strong> Go into dumpling/games/[name of the game you dumped]/game/content/0010/ on your SD card. There should be a file called <code>rom.zip</code> that should contain a <code>.nds/.srl</code> file inside it. If it is an <code>.srl</code> file, change the extension to <code>.nds</code>.</p>
+<p><strong>10.</strong> Copy the file to a safe location on your device.</p>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>Congratulations, you now have your Nintendo DS ROM!</p>
 </div>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p>If you have issues with anything in the guide or need assistance, you can ask for help in the #wiiu-assistance channel of the <a href="https://discord.gg/C29hYvh">Nintendo Homebrew Discord server</a></p>
-</div>
-<div class="admonition type">
-<p class="admonition-title">wiiu-vc-extractor (NES/SNES/GBA/FDS/PCE/TurboGrafx-16)</p>
-<h3 id="requirements">Requirements</h3>
-<ul>
-<li>A Windows, Mac OS X or Linux computer with an SD card reader</li>
-<li>An SD card with at least 300MB of free storage</li>
-</ul>
-<p><a href="vcextractor/">Continue to wiiu-vc-extractor guide</a></p>
-</div>
-<div class="admonition type">
-<p class="admonition-title">Nintendo 64</p>
-<h3 id="requirements_1">Requirements</h3>
-<ul>
-<li>A computer with an SD card reader (an Android phone with an SD card slot also works great!)</li>
-<li>An SD card with at least 300MB of free storage</li>
-</ul>
-<p><a href="nintendo64/">Continue to Nintendo 64 guide</a></p>
-</div>
-<div class="admonition type">
-<p class="admonition-title">Nintendo DS</p>
-<h3 id="requirements_2">Requirements</h3>
-<ul>
-<li>A computer with an SD card reader (an Android phone with an SD card slot also works great!)</li>
-<li>An SD card with at least 300MB of free storage</li>
-</ul>
-<p><a href="nintendods/">Continue to Nintendo DS guide</a></p>
-</div>
-<div class="admonition type">
-<p class="admonition-title">Nintendo Wii</p>
-<h3 id="requirements_3">Requirements</h3>
-<ul>
-<li>A <code>otp.bin</code> and <code>seeprom.bin</code> dump from your Wii U, if you don't have them, follow this guide: <a href="https://wiiu.hacks.guide/#/mocha/online-exploit/nand-backup">NAND Dump</a></li>
-<li>A Wii U formatted USB Drive with at least 4GB of free space (Copy the game(s) you want to extract to this before following the steps)</li>
-<li>A Windows or Ubuntu computer</li>
-<li>If you are using Windows, <a href="https://docs.microsoft.com/en-us/dotnet/framework/install/">.NET Framework</a> version 4.5.2 or newer (included with Windows 10 since the May 2019 update)</li>
-<li>If you are using Ubuntu, <a href="https://wiki.winehq.org/Download">Wine</a> (You may need to install Wine-Mono, instructions can be found <a href="https://github.com/Lazr1026/Guides-and-Shit-v2/wiki/Wine-Mono-Installation">here</a>)</li>
-</ul>
-<p><a href="nintendowii/">Continue to Nintendo Wii guide</a></p>
+<p>If you want to see who contributed to this guide, go to the <a href="../credits/">Credits page.</a></p>
 </div></div>
             </div>
         </div>
@@ -171,11 +137,11 @@ If it is not, use one of these tools to do so:</p>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -240,8 +206,3 @@ If it is not, use one of these tools to do so:</p>
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.2.1
-Build Date UTC : 2021-07-15 11:57:07.082490+00:00
--->
