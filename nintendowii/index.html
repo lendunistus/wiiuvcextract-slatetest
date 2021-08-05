@@ -60,6 +60,12 @@
                             <li class="navitem">
                                 <a href="../credits/" class="nav-link">Credits</a>
                             </li>
+                            <li class="navitem">
+                                <a href="../issues/" class="nav-link">Issues</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="https://github.com/lendunistus/wiiuvcextract-guide" class="nav-link">Source</a>
+                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -106,6 +112,10 @@
                     <div class="col-md-9" role="main">
 
 <h2 id="nintendo-wii-guide">Nintendo Wii Guide</h2>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>If you run into any issues during the course of this guide, refer to the <a href="../issues/">Issues</a> section.</p>
+</div>
 <h3 id="downloads">Downloads</h3>
 <ul>
 <li>
@@ -118,15 +128,17 @@
 <h4 id="steps">Steps</h4>
 <p><strong>1.</strong> Insert the USB drive into your Computer. Do not format the drive if promted to.</p>
 <p><strong>2.</strong> Open up DumpsterU on your PC. Ubuntu users may have to open it through the terminal.</p>
-<p><strong>3.</strong> Select your USB drive and insert your <code>otp.bin</code> and <code>seeprom.bin</code> into DumpsterU and click <code>Ok</code>.</p>
-<p><strong>4.</strong> Select the Game you are wanting to extract and select a place to store it. (You have to do this step with every game you want to extract.)</p>
+<p><strong>3.</strong> Select your USB drive, insert your <code>otp.bin</code> and <code>seeprom.bin</code> into DumpsterU and click <code>Ok</code>.</p>
+<p><strong>4.</strong> Select the Game you want to extract and select a place to store it. (You have to do this step with every game you want to extract.)</p>
 <p><strong>5.</strong> Copy the <code>nfs2iso2nfs.exe</code> file to the <code>content</code> folder of the dump.</p>
-<p><strong>6.</strong> Open Terminal/Command Prompt and run the respective command for your OS.</p>
+<p><strong>6.</strong> Open Terminal/Command Prompt and run the commands for your respective operating system.</p>
 <p>Windows:</p>
-<pre><code>nfs2iso2nfs.exe -dec
+<pre><code>cd [path to nfs2iso2nfs folder] 
+nfs2iso2nfs.exe -dec
 </code></pre>
 <p>Ubuntu:</p>
-<pre><code>wine nfs2iso2nfs.exe -dec
+<pre><code>cd [path to nfs2iso2nfs folder]
+wine nfs2iso2nfs.exe -dec
 </code></pre>
 <div class="admonition success">
 <p class="admonition-title">Success</p>

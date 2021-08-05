@@ -6,16 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        
-        <link rel="shortcut icon" href="/wiiuvcextract-guide/img/favicon.ico">
-        <title>Wii U VC Extraction Guide</title>
-        <link href="/wiiuvcextract-guide/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/wiiuvcextract-guide/css/font-awesome.min.css" rel="stylesheet">
-        <link href="/wiiuvcextract-guide/css/base.css" rel="stylesheet">
+        <link rel="canonical" href="https://lendunistus.github.io/wiiuvcextract-guide/issues/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Issues - Wii U VC Extraction Guide</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/darcula.min.css">
 
-        <script src="/wiiuvcextract-guide/js/jquery-1.10.2.min.js" defer></script>
-        <script src="/wiiuvcextract-guide/js/bootstrap.min.js" defer></script>
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -23,7 +23,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="/wiiuvcextract-guide/.">Wii U VC Extraction Guide</a>
+                <a class="navbar-brand" href="..">Wii U VC Extraction Guide</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,34 +34,34 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem">
-                                <a href="/wiiuvcextract-guide/." class="nav-link">Home</a>
+                                <a href=".." class="nav-link">Home</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Guides <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="/wiiuvcextract-guide/vcextractor/" class="dropdown-item">wiiu-vc-extractor</a>
+    <a href="../vcextractor/" class="dropdown-item">wiiu-vc-extractor</a>
 </li>
                                     
 <li>
-    <a href="/wiiuvcextract-guide/nintendo64/" class="dropdown-item">Nintendo 64</a>
+    <a href="../nintendo64/" class="dropdown-item">Nintendo 64</a>
 </li>
                                     
 <li>
-    <a href="/wiiuvcextract-guide/nintendods/" class="dropdown-item">Nintendo DS</a>
+    <a href="../nintendods/" class="dropdown-item">Nintendo DS</a>
 </li>
                                     
 <li>
-    <a href="/wiiuvcextract-guide/nintendowii/" class="dropdown-item">Nintendo Wii</a>
+    <a href="../nintendowii/" class="dropdown-item">Nintendo Wii</a>
 </li>
                                 </ul>
                             </li>
                             <li class="navitem">
-                                <a href="/wiiuvcextract-guide/credits/" class="nav-link">Credits</a>
+                                <a href="../credits/" class="nav-link">Credits</a>
                             </li>
-                            <li class="navitem">
-                                <a href="/wiiuvcextract-guide/issues/" class="nav-link">Issues</a>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Issues</a>
                             </li>
                             <li class="navitem">
                                 <a href="https://github.com/lendunistus/wiiuvcextract-guide" class="nav-link">Source</a>
@@ -74,6 +74,16 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../credits/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -81,15 +91,34 @@
 
         <div class="container">
             <div class="row">
-
-    <div class="row-fluid">
-      <div id="main-content" class="span12">
-        <h1 id="404-page-not-found" style="text-align: center">404</h1>
-        <p style="text-align: center"><strong>Page not found</strong></p>
-      </div>
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
     </div>
 
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#issues" class="nav-link">Issues</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
 
+<h2 id="issues">Issues</h2>
+<p>If you are having issues, read below. (If your issue is not present below, join the <a href="https://discord.gg/C29hYvh">Nintendo Homebrew Discord Server</a> and ask for help in <strong>#wiiu-assistance</strong>)</p>
+<h3 id="nintendo-wii">Nintendo Wii</h3>
+<p><strong>Q:</strong> When running the exe I get "AES key missing". What do I do? <br />
+<strong>A.</strong> You are missing htk.bin in the <code>/code</code> folder. Redump your game.</p>
+<p><strong>Q.</strong> When running the exe I get "Wii Common Key not found". What do I do?<br />
+<strong>A.</strong> You are missing the wii common key in the dump. Get the wii common key from somewhere (your favorite search engine is your friend).</p>
+<p>(will add more if more issues arise)</p></div>
             </div>
         </div>
 
@@ -98,11 +127,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = "/wiiuvcextract-guide/",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="/wiiuvcextract-guide/js/base.js" defer></script>
-        <script src="/wiiuvcextract-guide/search/main.js" defer></script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
