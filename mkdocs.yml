@@ -1,0 +1,14 @@
+site_name: Wii U VC Extraction Guide
+site_url: https://lendunistus.github.io/wiiuvcextract-guide
+nav:
+    - Home: 'index.md'
+    - 'Guides':
+        - 'wiiu-vc-extractor': 'vcextractor.md'
+        - 'Nintendo 64 and DS': 'nintendo64ds.md'
+        - 'Nintendo Wii': 'nintendowii.md'
+    - Credits: 'credits.md'
+    - Issues: 'issues.md'
+    - Source: 'https://github.com/lendunistus/wiiuvcextract-guide'
+theme: slate
+markdown_extensions:
+  - admonition
