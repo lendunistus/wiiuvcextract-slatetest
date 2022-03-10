@@ -8,11 +8,15 @@
 
 **1.** Extract the contents of ``dumpling.zip`` to the root of your SD card.
 
-**2.** Insert your SD card into your Wii U and power your Wii U on.
+**2.** Insert your USB storage device or SD card into your Wii U.
 
-**3.** Launch The Homebrew Launcher using your preferred method.
+**3.** If prompted, **do not** format any USB devices through the Wii U.
 
-**4.** Launch Dumpling.
+**4.** Launch the internet browser on your console and open `dumplingapp.com`.
+
+**5.** Tap "Launch dumpling". <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If your console freezes for more than 10 seconds, hold down the Power button for 4 seconds and reboot.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Once rebooted, [reset the browser's save data](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) and try again.
 
 **5.** Select "Dump Digital Games".
 

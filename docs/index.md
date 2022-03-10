@@ -9,7 +9,7 @@ Welcome! In this guide, you will learn how to extract ROMs from Wii U VC titles.
       <img src="https://i.imgur.com/Enayp9F.png" alt="File Explorer"/>
     </p>
 
-    Also make sure that your SD card is formatted as FAT32.
+    Also make sure that your SD card or USB storage device is formatted as FAT32.
     If it is not, use one of these tools to do so:
 
     Windows - [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
@@ -28,7 +28,7 @@ Welcome! In this guide, you will learn how to extract ROMs from Wii U VC titles.
     ### Requirements
 
     * A Windows, Mac OS X or Linux computer with an SD card reader
-    * An SD card with at least 300MB of free storage
+    * An SD card or USB storage device with at least 300MB of free storage
 
     [Continue to wiiu-vc-extractor guide](vcextractor.md)
 
@@ -36,8 +36,8 @@ Welcome! In this guide, you will learn how to extract ROMs from Wii U VC titles.
 
     ### Requirements
 
-    * A computer with an SD card reader (an Android phone with an SD card slot also works great!)
-    * An SD card with at least 300MB of free storage
+    * A computer with an SD card reader or USB port (an Android phone with an SD card slot also works great!)
+    * An SD card or USB storage device with at least 300MB of free storage
 
     [Continue to Nintendo 64 and DS guide](nintendo64ds.md)
 
@@ -46,10 +46,10 @@ Welcome! In this guide, you will learn how to extract ROMs from Wii U VC titles.
 
     ### Requirements
 
-    * A ``otp.bin`` and ``seeprom.bin`` dump from your Wii U, if you don't have them, follow this guide: [NAND Dump](https://wiiu.hacks.guide/#/mocha/online-exploit/nand-backup)
-    * A Wii U formatted USB Drive with at least 4GB of free space (Copy the game(s) you want to extract to this before following the steps)
+    * A ``otp.bin`` and ``seeprom.bin`` dump from your Wii U. If you don't have these files, follow this guide: [NAND Dump](https://wiiu.hacks.guide/#/tiramisu/nand-backup)
+    * A Wii U formatted USB Drive with at least 4GB of free space (Copy the game(s) you want to extract to this before following the guide)
     * A Windows or Ubuntu computer
     * If you are using Windows, [.NET Framework](https://docs.microsoft.com/en-us/dotnet/framework/install/) version 4.5.2 or newer (included with Windows 10 since the May 2019 update)
-    * If you are using Ubuntu, [Wine](https://wiki.winehq.org/Download) (You may need to install Wine-Mono, instructions can be found [here](https://github.com/Lazr1026/Guides-and-Shit-v2/wiki/Wine-Mono-Installation))
+    * If you are using Ubuntu, [Wine](https://wiki.winehq.org/Download). Wine Mono may be required; a guide for installation can be found [here](https://wiki.winehq.org/Mono).
 
     [Continue to Nintendo Wii guide](nintendowii.md)
